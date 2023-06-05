@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital@1&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Barlow', sans-serif;
+    font-size: 20px;
+}
+
+html{
+	scroll-behavior: smooth;
+}
+body{
+    background-color: rgb(254, 255, 177);
+}
+.contenedor {
+	width: 90%;
+	max-width: 1000px;
+	margin: 20px auto;
+	display: grid;
+	grid-template-columns: 30% 70%;
+	gap: 20px;
+}
+.enlaces {
+	position: sticky;
+	top: 20px;
+	background-color: rgb(27, 50, 100);
+	padding: 20px;
+	border-radius: 5px;
+	box-shadow: rgba(14, 15, 19, 0.16) 0px 1px 4px;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.navt a {
+	display: block;
+	text-decoration: none;
+	padding: 10px 20px;
+	border-radius: 3px;
+	color: rgb(236, 233, 35);
+}
+
+.navt a:hover {
+	background: #12142b;
+}
+
+.navt a.activo {
+	font-weight: 700;
+	background: #2063ff;
+	color: #fff;
+}
+.seccion {
+	padding: 0px 40px 40px 40px;
+	margin-bottom: 40px;
+	border-radius: 5px;
+	background: #fff;
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+ .seccion table {
+	font-size: 16px;
+	line-height: 32px;
+	font-weight: 400;
+	color: #414141;
+}
+
+
+.principal{
+    background-color: rgb(236, 233, 35);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    padding: 5px 10%; 
+    
+    
+} 
+.principal .logo{
+    cursor: pointer;
+}
+
+.principal .logo img{
+    height: 70px;
+    width: auto;
+    transition: all 0.3s;
+} 
+.principal .logo img:hover{
+    transform: scale(1.2);
+}
+.principal .nav-menu{
+    list-style: none;
+}
+.principal .nav-menu li{
+    display: inline-block;
+    padding: 0 20px;
+}
+.principal .nav-menu li:hover{
+    transform: scale(1.1)
+}
+
+.principal .nav-menu a{
+    color:rgb(4, 6, 44);
+    font-size: 700;
+    text-decoration: none;
+}
+.principal .nav-menu a:hover{
+    color:rgb(27, 50, 100)
+}
+/* .menu a:visited{
+    color:black
+} */
