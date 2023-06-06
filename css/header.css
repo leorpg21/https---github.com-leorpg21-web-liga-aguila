@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital@1&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Barlow', sans-serif;
+    font-size: 20px;
+}
+
+
+.principal .logo{
+    cursor: pointer;
+}
+
+.principal .logo img{
+    height: 70px;
+    width: auto;
+    transition: all 0.3s;
+} 
+.principal .logo img:hover{
+    transform: scale(1.2);
+}
+.principal{
+    background-color: rgb(236, 233, 35);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    padding: 5px 10%; 
+    
+} 
+
+.nav-menu{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+.nav-menu li{
+    display: block;
+    padding: 0 20px;
+}
+.nav-menu  a{
+    display: block;
+    color:rgb(4, 6, 44);
+    font-size: 700;
+    text-decoration: none;
+}
+
+.nav-menu li:hover{
+    transform: scale(1.1);
+}
+
+.nav-menu a:hover{
+    color:rgb(27, 50, 100);
+    transform: scale(1.1);
+}
+.nav-submenu{
+	position: absolute;
+	display: none;
+    list-style: none;
+    width: 100%;
+    background-color: rgb(236, 233, 35);
+   
+} 
+.nav-menu li:hover .nav-submenu{
+	display: block;
+}
+
+.nav-submenu li{
+    display: block;
+}
+
+

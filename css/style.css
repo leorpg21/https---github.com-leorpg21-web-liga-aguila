@@ -7,6 +7,7 @@
     font-size: 20px;
 }
 
+
 html{
 	scroll-behavior: smooth;
 }
@@ -66,47 +67,7 @@ body{
 }
 
 
-.principal{
-    background-color: rgb(236, 233, 35);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 85px;
-    padding: 5px 10%; 
-    
-    
-} 
-.principal .logo{
-    cursor: pointer;
-}
 
-.principal .logo img{
-    height: 70px;
-    width: auto;
-    transition: all 0.3s;
-} 
-.principal .logo img:hover{
-    transform: scale(1.2);
-}
-.principal .nav-menu{
-    list-style: none;
-}
-.principal .nav-menu li{
-    display: inline-block;
-    padding: 0 20px;
-}
-.principal .nav-menu li:hover{
-    transform: scale(1.1)
-}
-
-.principal .nav-menu a{
-    color:rgb(4, 6, 44);
-    font-size: 700;
-    text-decoration: none;
-}
-.principal .nav-menu a:hover{
-    color:rgb(27, 50, 100)
-}
 /* .menu a:visited{
     color:black
 } */

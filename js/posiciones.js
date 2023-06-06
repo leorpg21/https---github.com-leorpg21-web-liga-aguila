@@ -13,7 +13,7 @@ fetch("https://v3.football.api-sports.io/standings?league=239&season=2023", {
 //const mostrarD = data.find(i=>i.standings===3);
 const mostrarTablaA = (data) =>{
 	tApertura = data.response[0].league.standings[3];
-	console.table(tApertura)
+	console.log(tApertura)
 	let body = ""
         for (var i = 0; i < tApertura.length; i++) {      
             body+=`<tr>
@@ -49,7 +49,7 @@ fetch("https://v3.football.api-sports.io/standings?league=239&season=2023", {
 
 const mostrarTablaCA = (data) =>{
 	cuadrangularA= data.response[0].league.standings[1];
-	console.table(cuadrangularA);
+	//console.table(cuadrangularA);
 	body =""
 	for (let i = 0; i < cuadrangularA.length; i++) {
 		body += `<tr>
@@ -86,7 +86,7 @@ fetch("https://v3.football.api-sports.io/standings?league=239&season=2023", {
 
 const mostrarTablaCB = (data) =>{
 	cuadrangularB= data.response[0].league.standings[2];
-	console.log(cuadrangularB);
+	//console.log(cuadrangularB);
 	body =""
 	for (let i = 0; i < cuadrangularB.length; i++) {
 		body += `<tr>
@@ -121,7 +121,7 @@ fetch("https://v3.football.api-sports.io/standings?league=239&season=2023", {
 
 const mostrarTablaCl = (data) =>{
 	clausura= data.response[0].league.standings[0];
-	console.table(clausura);
+	//console.table(clausura);
 	body =""
 	for (let i = 0; i < clausura.length; i++) {
 		body += `<tr>
