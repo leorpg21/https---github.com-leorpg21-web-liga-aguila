@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,12 +8,54 @@
     <link rel="shortcut icon" href="img/logofr.png" type="image/x-icon">
     <script src="componentes/header.js"></script>
     <script src="componentes/footer.js"></script>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/carrusel.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/footer.css">
 </head>
 <body>
     <header-web></header-web>
+    <h1>Que deseas ver?</h1>
+  <div class="carrusel">
+    <span id="item-1"></span>
+    <span id="item-2"></span>
+    <span id="item-3"></span>
+    <span id="item-4"></span>
+    <span id="item-5"></span>
+
+    <div class="carrusel-item item-1">
+        <a href=""><p class="prr">Equipos</p></a>
+      <a href="#item-5" class="arrow-prev arrow"></a>
+      <a href="#item-2" class="arrow-next arrow"></a>
+    </div>
+
+    <div class="carrusel-item item-2">
+      <a href="posiciones.html"><p class="prr">POSICIONES</p></a>
+      <a href="#item-1" class="arrow-prev arrow"></a>
+      <a href="#item-3" class="arrow-next arrow"></a>
+    </div>
+
+    <div class="carrusel-item item-3">
+        <a href="max-gol.html"><p class="prr">GOLEADORES</p></a>
+        <a href="#item-2" class="arrow-prev arrow"></a>
+        <a href="#item-4" class="arrow-next arrow"></a>
+    </div>
+
+    <div class="carrusel-item item-4">
+        <a href="max-ass.html"><p class="prr">ASISTENCIAS</p></a>
+
+        <a href="#item-3" class="arrow-prev arrow"></a>
+        <a href="#item-5" class="arrow-next arrow"></a>
+    </div>
+
+    <div class="carrusel-item item-5">
+        <a href="calendario.html"><p class="prr">CALENDARIO</p></a>
+
+        <a href="#item-4" class="arrow-prev arrow"></a>
+        <a href="#item-1" class="arrow-next arrow"></a>
+    </div>
+
+
+  </div>
     <footer-web></footer-web>
 </body>
 </html>
