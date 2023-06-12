@@ -11,8 +11,7 @@ class headers extends HTMLElement{
 
         <nav>
             <ul class="nav-menu">
-                <li><a href=""></a></li>
-                <li><a href="">Equipos</a></li>
+                <li><a href="equipos.html">Equipos</a></li>
                 <li><a href="posiciones.html">Posiciones</a></li>
                 <li>  
                     <a >Estadisticas</a>

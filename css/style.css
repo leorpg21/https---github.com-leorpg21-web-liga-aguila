@@ -18,6 +18,7 @@ body{
 
 
 .contenedor {
+	float: left;
 	width: 90%;
 	max-width: 1000px;
 	margin: 20px auto;
@@ -25,6 +26,76 @@ body{
 	grid-template-columns: 30% 70%;
 	gap: 20px;
 }
+
+.contenedor2 {
+	width: 50%;
+	margin: 45px auto;
+	box-shadow: rgba(0, 0, 0, 0.40) 10px 10px 10px;
+
+}
+.cont3{
+
+	float: left;
+	display: flex; 
+	justify-content: center;  
+	align-items: center; 
+	
+	
+}
+
+.cont3 figure{
+	
+
+	
+	
+	position: relative;
+	
+	margin: 35px 30px;
+	overflow: hidden;
+	 
+}
+
+.cont3 figure img{
+	width: 100%;
+	height: 100%;
+	transition: all 500ms ease-out;
+	
+	
+}
+.cont3 figure .capa{
+	
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top:0;
+	transition: all 500ms ease-out;
+	opacity: 0;
+	visibility: hidden;
+	text-align: center;
+}
+.cont3 figure .capa p{
+	margin-top: 60px;
+	margin-bottom: 10px;
+
+}
+.cont3 figure:hover{
+	transform: scale(1.1);
+}
+
+.cont3 figure:hover > .capa{
+	opacity: 1;
+	visibility: visible;
+}
+
+.cont3 figure:hover > .capa p{
+	margin-top: 60px;
+	margin-bottom: 10px;
+}
+
+footer{
+	clear: both;
+}
+
 .enlaces {
 	position: sticky;
 	top: 20px;
